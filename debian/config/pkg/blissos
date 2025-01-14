@@ -286,6 +286,10 @@ CONFIG_FEATURE_LS_USERNAME=y
 CONFIG_SHA256SUM=y
 # CONFIG_SHA512SUM is not set
 # CONFIG_SHA3SUM is not set
+
+#
+# Common options for md5sum, sha1sum, sha256sum, sha512sum, sha3sum
+#
 CONFIG_FEATURE_MD5_SHA1_SUM_CHECK=y
 CONFIG_MKDIR=y
 CONFIG_MKFIFO=y
